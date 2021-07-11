@@ -1,0 +1,19 @@
+@media screen and (max-width: 960px) {
+    .app {
+        display: block;
+        .time-select {
+            margin-top: 50px;
+            height: auto;
+            flex-direction: row;
+            justify-content: space-evenly;
+            button {
+                padding: 10px 15px;
+            }
+        }
+        .sound-picker {
+            height: auto;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+    }
+}
